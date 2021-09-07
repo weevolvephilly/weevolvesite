@@ -1,0 +1,6 @@
+<h2>Talking We Evolve</h2>
+
+{%- for press in collections.press -%}
+    <h2>{{ press.data.title }}</h2>
+    <div>{{press.templateContent | safe }}</div>
+{% endfor %}

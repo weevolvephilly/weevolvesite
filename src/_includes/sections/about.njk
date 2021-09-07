@@ -1,0 +1,4 @@
+{%- for about in collections.about -%}
+    <h2>{{ about.data.title }}</h2>
+    <div>{{about.templateContent | safe }}</div>
+{% endfor %}

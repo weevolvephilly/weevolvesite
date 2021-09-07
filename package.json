@@ -1,0 +1,19 @@
+{
+  "name": "weevolvesite",
+  "version": "1.0.0",
+  "description": "Website for WeEvolve",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rasha Moumneh",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "markdown-it": "^12.2.0"
+  }
+}
