@@ -1,4 +1,6 @@
 {%- for about in collections.about -%}
-    <h2>{{ about.data.title }}</h2>
-    <div>{{about.templateContent | safe }}</div>
+<div class="about">
+    <h2 class="h2-header">{{ about.data.title }}</h2>
+    <article class="content">{{about.templateContent | safe }}</article>
+</div>
 {% endfor %}
