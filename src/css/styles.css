@@ -1,3 +1,30 @@
 body {
     color: grey;
 }
+
+.h2-header {
+    grid-area: h2-header;
+    text-align: center;
+}
+
+.content {
+    grid-area: content;
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 150px;
+    max-height: 100%;
+}
+
+.about {
+    padding: 0 100px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-template-areas:
+        "h2-header"
+        "content";
+}
