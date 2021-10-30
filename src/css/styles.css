@@ -16,10 +16,6 @@ body {
     max-height: 100%;
 }
 
-.about {
-    padding: 0 100px;
-}
-
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -27,4 +23,23 @@ body {
     grid-template-areas:
         "h2-header"
         "content";
+}
+
+.about {
+    padding: 0 100px;
+}
+
+.join {
+    grid-column: 1 / span 3;
+    grid-row-start: 2;
+    justify-self: center;
+    text-align: center;
+}
+
+.join-content {
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 150px;
+    max-height: 100%;
 }
