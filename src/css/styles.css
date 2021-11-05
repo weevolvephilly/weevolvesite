@@ -19,11 +19,12 @@ body {
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 50px;
     grid-template-areas:
         "h2-header"
         "content";
 }
+
 
 .join {
     grid-column: 1 / span 3;
